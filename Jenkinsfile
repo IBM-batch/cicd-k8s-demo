@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "interviewdot/cicd-k8s-demo"
-    registryCredential = 'docker-hub-credentials'
+    registryCredential = 'docker-credentials'
     dockerImage = ''
   }
   agent any
